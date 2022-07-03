@@ -1,0 +1,126 @@
+body{
+    background: #E5E5E5;
+}
+
+.general_block{
+    margin: 200px 300px 300px 500px;
+    border: 2px solid black;
+    height: 507px;
+    width: 793px;
+}
+
+.head_block{
+    height: 82px;
+    width: 793px;
+    background: #4A4F56;
+}
+
+.main_block{
+    height: 425px;
+    width: 793px;
+    background: #3B3F45;
+    border: 1px solid black;
+}
+
+.first_name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    align-items: center;
+    color: #FF8984;
+    display: inline-block;
+    margin: 19px 270px 4px 247px;
+}
+
+.second_name{
+    text-align: center;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FF8984;
+    height: 40px;
+    margin: 4px 338px 12px 316px;
+    display: inline-block;
+
+}
+.central_block{
+    height: 270px;
+    width: 534px;
+    border: 1px solid black;
+    margin: 15px 130px 44px 129px;
+}
+.final_button{
+    width: 534px;
+    height: 45px;
+    background: #4A4F56;
+    display: inline-block;
+    margin: 1px 130px;
+}
+.final{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FF8984;
+    display: inline-block;
+    margin: 12px 223px 12px 204px;
+}
+.input{
+    width: 19px;
+    height: 19px;
+    border: 1px solid black;
+    margin: 10px 10px;
+    position: relative;
+    top: 4px;
+}
+.option{
+    width: 533px;
+    height: 45px;
+    display: block;
+    background: #88839E;
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    padding: 0px 0px 0px 0px;
+}
+
+.big_letter{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 21.09px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.option:hover{
+    background: #625E77 ;
+    border-bottom: 3px solid white;
+    border-top: 3px solid white;
+    transition: all 0.3s;
+}
+input[type="checkbox"]:checked + label{
+    text-decoration: line-through;
+    color: #9B96AC;
+}
+input[type="checkbox"]:checked + label .big_letter{
+    text-decoration: line-through;
+    color: #9B96AC;
+}
+.dark_block{
+    background: #7A7593;
+}
+label{
+    display: inline-block;
+    margin: -10px 1px;
+    horiz-align: center;
+}
+
+
